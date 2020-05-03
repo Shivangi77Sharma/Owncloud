@@ -19,7 +19,7 @@ services:
       - OWNCLOUD_DOMAIN=localhost
       - OWNCLOUD_DB_TYPE=mysql
       - OWNCLOUD_DB_NAME=owncloud
-      - OWNCLOUD_DB_USERNAME=owncloud
+      - OWNCLOUD_DB_USERNAME=shivangi
       - OWNCLOUD_DB_PASSWORD=owncloud
       - OWNCLOUD_DB_HOST=db
       - OWNCLOUD_ADMIN_USERNAME=admin
