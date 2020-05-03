@@ -11,5 +11,29 @@ Under IIEC-RISE 1.0 Campaign I learnt Docker from basic to advanced under the tr
    * Docker-compose downloaded
    
 **In case of connectivity issues:**
+
+**Steps:**
+* clone this repository in your system
+* start docker using
+
+      systemctl start docker
+* make a new folder for docker-compose
+
+      mkdir <folder_name>
+* copy paste the docker-compose.yml file from the repository
+      
+      cd <folder_name>
+      ls
+      docker-compose.yml
+* start docker-compose
+
+      docker-compose up
+* now the owncloud server is ready and can be accessed through any device with LAN connectivity
+you can access it using your IP or localhost
+
+---your own owncloud server is setup!!!----
+
+all the required images will be downloaded by the docker-compose itself
+> Screenshots of these steps are also provided of the above steps     
     
     
