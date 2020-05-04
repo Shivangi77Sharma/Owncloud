@@ -33,7 +33,7 @@ you can access it using your IP or localhost
 
 ---your own owncloud server is setup!!!----
 
-all the required images (MongoDB,Redis,owncloud) will be downloaded by the docker-compose itself
+all the required images (MariaDB,Redis,owncloud) will be downloaded by the docker-compose itself
 > Screenshots of these steps are also provided of the above steps     
     
     
