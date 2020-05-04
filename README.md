@@ -15,6 +15,7 @@ Under IIEC-RISE 1.0 Campaign I learnt Docker from basic to advanced under the tr
       iptables -F 
       iptables -P FORWARD ACCEPT 
 
+
       firewall-cmd  --zone=trusted  --change-interface=docker0  --permanent
 (if there are any other networks for docker add them too like br-xxxxx)
 
