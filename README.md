@@ -12,6 +12,18 @@ Under IIEC-RISE 1.0 Campaign I learnt Docker from basic to advanced under the tr
    
 **In case of connectivity issues:**
 
+      iptables -F 
+      iptables -P FORWARD ACCEPT 
+
+      firewall-cmd  --zone=trusted  --change-interface=docker0  --permanent
+(if there are any other networks for docker add them too like br-xxxxx)
+
+      firewall-cmd  --zone=trusted --add-masquerade  --permanent
+      firewall-cmd  --add-port=3306/tcp
+      firewall-cmd  --reload 
+      
+      systemctl restart docker 
+
 **Steps:**
 * clone this repository in your system
 * start docker using
